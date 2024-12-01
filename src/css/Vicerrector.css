@@ -1,0 +1,38 @@
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative; /* Para posicionar el título correctamente */
+    padding: 5 px; /* Espaciado horizontal */
+}
+
+/* Botón general */
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: none; /* Elimina sombras adicionales */
+    width: auto; /* Ajusta el tamaño al contenido */
+}
+
+/* Estilo del botón de "Cerrar Sesión" */
+.danger {
+    background-color: #d32f2f;
+}
+
+.danger:hover {
+    background-color: #b71c1c;
+}
+
+/* Estilo del título */
+.title {
+position: relative;
+left: 42%;
+}
