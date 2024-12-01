@@ -2,11 +2,12 @@ import axios from 'axios';
 
 // Crear una instancia de Axios con la configuración base
 const axiosInstance = axios.create({
-  baseURL: 'https://react-mern-backend-xxxxx.onrender.com', // URL del backend en Render
+  baseURL: 'https://react-mern-express.onrender.com', // URL del backend en Render
   headers: {
     'Content-Type': 'application/json', // Asegura que los datos sean enviados como JSON
   },
 });
+
 
 // Interceptor para incluir el token de autenticación en cada solicitud
 axiosInstance.interceptors.request.use(
